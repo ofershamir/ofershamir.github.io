@@ -1,0 +1,9 @@
+Required image filenames:
+
+- turbulence-sphere-banner.jpg
+- research-waves-placeholder.jpg
+- research-spectra-placeholder.jpg
+- research-models-placeholder.jpg
+- research-probability-placeholder.jpg
+
+The four research filenames can be replaced later with descriptive final names, provided the paths in `_pages/research.md` are updated.

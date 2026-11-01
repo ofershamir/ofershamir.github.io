@@ -1,0 +1,75 @@
+/* Website-specific additions for Academic Pages.
+   Import this file from assets/css/main.scss after the theme imports. */
+
+/* Shared banner. Add class="site-banner" to the banner include or page wrapper. */
+.site-banner {
+  width: 100%;
+  aspect-ratio: 5 / 1;
+  max-height: 230px;
+  min-height: 120px;
+  background-image: url("/assets/images/turbulence-sphere-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0 2rem;
+}
+
+.research-identity {
+  margin: 0 0 1.25rem;
+  color: #315f7a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.intro-lead {
+  font-size: 1.18rem;
+  line-height: 1.65;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.75rem;
+}
+
+.research-theme {
+  display: grid;
+  grid-template-columns: minmax(210px, 34%) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  padding: 2.1rem 0;
+  border-top: 1px solid #d9e1e5;
+}
+
+.research-theme:first-of-type {
+  margin-top: 2rem;
+}
+
+.research-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 2px 12px rgba(22, 45, 58, 0.12);
+}
+
+.research-copy h2 {
+  margin-top: 0;
+}
+
+.page__content ol li {
+  margin-bottom: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .site-banner {
+    aspect-ratio: 3 / 1;
+    min-height: 100px;
+  }
+
+  .research-theme {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

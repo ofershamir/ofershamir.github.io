@@ -6,7 +6,11 @@ author_profile: true
 
 ## In preparation
 
-1. **Shamir, O.**, et al. *Nonlinear instability of a zonal jet on the sphere: from non-divergence through quasi-geostrophy to shallow water.* In preparation.
+1. **Shamir, O.**, et al. *A Stochastic Null Hypothesis for the Tropical Variability of Outgoing Longwave Radiation.* In preparation.
+
+2. **Shamir, O.**, et al. *Nonlinear instability of a zonal jet on the sphere: from non-divergence through quasi-geostrophy to shallow water.* In preparation.
+
+<!-- 3. **Shamir, O.**, et al. *Turbulence in Lamb's clothing: A priori scaling of strong, geostrophic, shallow water turbulence on the rotating sphere.* In preparation. -->
 
 <!-- Add submitted manuscripts here when applicable.
 ## Submitted

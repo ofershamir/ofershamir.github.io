@@ -322,45 +322,12 @@
 }
 
 /* Force the browser to render the page in light color scheme */
-// html, :root {
-//     color-scheme: light !important;
-// }
+html, :root {
+    color-scheme: light !important;
+}
 
 // /* Neutralize any fallback dark theme attributes or media queries */
 // html[data-theme="dark"] {
 //     --global-bg-color: #ffffff !important;
 //     --global-text-color: #222222 !important;
 // }
-
-/* --------------------------------------------------------------------------
-   Force a consistent light appearance
-   -------------------------------------------------------------------------- */
-
-// :root {
-//   color-scheme: light;
-// }
-
-html, :root {
-    color-scheme: light !important;
-}
-
-/* Masthead navigation must remain visible regardless of system appearance. */
-.masthead,
-.greedy-nav {
-  background: #ffffff;
-}
-
-.greedy-nav a,
-.greedy-nav .visible-links a,
-.masthead__menu-item a {
-  color: #2f3e46;
-}
-
-.greedy-nav a:hover,
-.greedy-nav a:focus,
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus,
-.masthead__menu-item a:hover,
-.masthead__menu-item a:focus {
-  color: #2f6f95;
-}

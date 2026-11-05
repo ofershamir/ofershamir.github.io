@@ -336,8 +336,12 @@
    Force a consistent light appearance
    -------------------------------------------------------------------------- */
 
-:root {
-  color-scheme: light;
+// :root {
+//   color-scheme: light;
+// }
+
+html, :root {
+    color-scheme: light !important;
 }
 
 /* Masthead navigation must remain visible regardless of system appearance. */

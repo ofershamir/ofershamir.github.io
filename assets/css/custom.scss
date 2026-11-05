@@ -322,12 +322,12 @@
 }
 
 /* Force the browser to render the page in light color scheme */
-html, :root {
-    color-scheme: light !important;
-}
+// html, :root {
+//     color-scheme: light !important;
+// }
 
-/* Neutralize any fallback dark theme attributes or media queries */
-html[data-theme="dark"] {
-    --global-bg-color: #ffffff !important;
-    --global-text-color: #222222 !important;
-}
+// /* Neutralize any fallback dark theme attributes or media queries */
+// html[data-theme="dark"] {
+//     --global-bg-color: #ffffff !important;
+//     --global-text-color: #222222 !important;
+// }
